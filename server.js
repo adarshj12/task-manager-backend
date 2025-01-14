@@ -11,5 +11,5 @@ app.use('/',userRoute);
 
 app.listen(7000,async()=>{
     await connection();
-    console.log('server running at 4000');
+    console.log('server running at 7000');
 })
